@@ -1,0 +1,31 @@
+{
+  "name": "base32768",
+  "version": "1.0.0",
+  "description": "Binary-to-text encoding highly optimised for UTF-16",
+  "homepage": "https://github.com/qntm/base32768",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qntm/base32768.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "base64",
+    "base32768",
+    "encoding",
+    "unicode",
+    "text",
+    "decoding",
+    "efficiency"
+  ],
+  "scripts": {
+    "test": "node test/test.js",
+    "standard": "standard"
+  },
+  "dependencies": [],
+  "author": "qntm",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^7.1.1",
+    "standard": "^10.0.3"
+  }
+}

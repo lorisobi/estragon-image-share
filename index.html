@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="/base32768/index.js"></script>
+        <title>Estragon Image Share</title>
+    </head>
+    <body onloadend="init();">
+        <header>
+            <p>estragon</p>
+        </header>
+        <main>
+            <h1>Image sharing only in URLs</h1>
+            <button onclick="loadNewImage()">Choose Image</button>
+        </main>
+        <footer>
+            <p>
+                Open Source Tool held together by base32768 and compress.js.
+                Many thanks!
+            </p>
+        </footer>
+        <dialog id="imageDialog">
+            <img src="" id="imageDialogImage" alt="" />
+        </dialog>
+        <script src="script.js"></script>
+    </body>
+</html>
